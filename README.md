@@ -67,6 +67,10 @@ boiling = sat("water", "373.15 K")
 println(boiling.values["psat"])
 ```
 
+## 教程
+
+- [十分钟跑通水蒸汽与二元相包络](tutorials/water-steam/README.md)：状态点 / 饱和 / 闪蒸 / VLE / 包络，命令行与两个客户端。
+
 ## 版本
 
 | 版本 | 能力 |
