@@ -67,9 +67,12 @@ boiling = sat("water", "373.15 K")
 println(boiling.values["psat"])
 ```
 
-## 教程
+## 教程与文档
 
 - [十分钟跑通水蒸汽与二元相包络](tutorials/water-steam/README.md)：状态点 / 饱和 / 闪蒸 / VLE / 包络，命令行与两个客户端。
+- [常见问题](FAQ.md)：学术/商业授权、流体、数据包、再分发。
+- [排错](TROUBLESHOOTING.md)：找不到二进制、数据包、两相 `null`、未收敛。
+- 烟测：`sh scripts/smoke.sh "$MMPROPS_HOME"`（状态点 / 饱和 / 闪蒸 / VLE / 数据库 / 响亮失败）。
 
 ## 版本
 
