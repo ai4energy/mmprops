@@ -93,10 +93,11 @@ println(boiling.values["psat"])
 
 完整条款见 [`LICENSE.md`](LICENSE.md)。
 
-## 反馈
+## 反馈与路线
 
 - [提交反馈 issue](https://github.com/ai4energy/mmprops/issues/new?template=feedback.md)
-- [Discussions](https://github.com/ai4energy/mmprops/discussions)
+- [Discussions](https://github.com/ai4energy/mmprops/discussions) 提问、投票与交流
+- [Roadmap](ROADMAP.md)：按真实需求排序的下一步
 - 邮件 **mingtao.li@gmail.com**
 
 数值问题请附：模型/流体、状态点（T/p 或 p/h）、期望值与实际值、`mmprops --version`。
